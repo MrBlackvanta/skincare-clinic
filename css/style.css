@@ -12026,7 +12026,7 @@ body.touch .tooltip.show {
   opacity: 0;
   width: 29px;
   height: 1px;
-  background-color: #000;
+  background-color: #dba159;
   transform: translateY(100px);
   transition: 1s ease 0.5s;
 }
