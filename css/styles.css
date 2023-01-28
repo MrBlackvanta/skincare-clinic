@@ -174,3 +174,12 @@
 .gallery-smiles {
   display: flex;
 }
+
+.header-logoo {
+  width: 500px;
+}
+
+.meet-doctor {
+  height: 407px;
+  object-fit: cover;
+}

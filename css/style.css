@@ -9988,7 +9988,7 @@ ul.services-list li:last-child {
 .icn-text .icn-text-simple [class*="icon"] {
   font-size: 55px;
   line-height: 67px;
-  color: #000;
+  color: #dba159;
 }
 .icn-text .icn-text-simple [class*="icon"].icon-innovation:before {
   font-size: 67px;
@@ -15251,7 +15251,7 @@ body.noScroll {
 
 .footer-bottom {
   padding: 11px 0;
-  background: #7899D4;
+  background: #7899d4;
   font-size: 15px;
   line-height: 26px;
   font-weight: 300;
