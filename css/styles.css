@@ -237,3 +237,12 @@
 .header-nav .nav-item > .bookknow {
   color: #dba159;
 }
+
+.table-img {
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.table-img img {
+  width: 100%;
+}
