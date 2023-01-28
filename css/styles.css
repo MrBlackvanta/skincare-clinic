@@ -145,7 +145,7 @@
 }
 
 .review-boxx .review:not(:last-child) {
-  margin-right: 100px;
+  margin: 0 50px;
 }
 
 .review-boxx .review .star-rating {
@@ -153,16 +153,28 @@
 }
 
 .review-boxx .slick-next {
-  left: 50%;
-  top: 240px;
+  left: 51%;
+  top: 250px;
 }
 
 .review-boxx .slick-prev {
-  left: 47%;
+  left: 46%;
   transform: translateX(-45%);
-  top: 240px;
+  top: 250px;
 }
 
+@media (max-width: 767px) {
+  .review-boxx .slick-next {
+    left: 53%;
+    top: 200px;
+  }
+
+  .review-boxx .slick-prev {
+    left: 43%;
+    transform: translateX(-45%);
+    top: 200px;
+  }
+}
 .before-after-section {
   margin-bottom: 75px;
 }
@@ -182,4 +194,8 @@
 .meet-doctor {
   height: 407px;
   object-fit: cover;
+}
+
+.vanta-gallery-wrap {
+  min-height: 10vh;
 }
