@@ -8755,8 +8755,8 @@ body:not(.touch) .btn-group-lg > .btn:focus [class*="icon"] {
 }
 
 body:not(.touch) .btn-hover-fill:hover {
-  background: #bda159;
-  border-color: #bda159;
+  background: #dba159;
+  border-color: #dba159;
   color: #fff;
   box-shadow: none !important;
 }
@@ -11158,7 +11158,7 @@ body.touch .tooltip.show {
   margin-right: 4px;
   width: 69px;
   height: 69px;
-  color: #000;
+  color: #dba159;
   background-color: #f8f8f8;
   text-align: center;
   border-radius: 50%;
@@ -11174,7 +11174,7 @@ body.touch .tooltip.show {
   background-color: #fff;
   color: #000;
   text-decoration: none;
-  box-shadow: inset 0 0 0 5px rgba(73, 176, 193, 0.2);
+  box-shadow: inset 0 0 0 5px rgba(219, 161, 89, 0.2);
 }
 
 .video-box {
@@ -15386,7 +15386,7 @@ body.noScroll {
   left: 0;
   top: 4px;
   font-size: 18px;
-  color: #bda159;
+  color: #dba159;
 }
 @media (max-width: 767px) {
   .footer ul.icn-list li > [class*="icon"] {
@@ -16208,7 +16208,7 @@ body.noScroll {
   z-index: 1;
   background: transparent;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 30px #000;
+  box-shadow: inset 0 0 0 30px #dba159;
   opacity: 0;
   transition: opacity 0 ease 0;
   pointer-events: none;
@@ -17887,7 +17887,7 @@ body:not(.touch) .banner-center .btn-fill:focus:not(:first-child) {
 .faq-item [data-toggle="collapse"] span:first-child {
   font-size: 16px;
   min-width: 26px;
-  color: #000;
+  color: #dba159;
 }
 @media (max-width: 767px) {
   .faq-item [data-toggle="collapse"] span:first-child {
@@ -17904,7 +17904,7 @@ body:not(.touch) .banner-center .btn-fill:focus:not(:first-child) {
   content: "\e932";
   font-family: "dentco";
   font-size: 12px;
-  color: #000;
+  color: #dba159;
   transform: translateY(-50%);
 }
 .faq-item [data-toggle="collapse"][aria-expanded="true"]:after {
@@ -20060,7 +20060,7 @@ body:not(.touch) .faq-wrap .nav-link:hover {
 }
 .filters-by-category ul a.selected {
   background: transparent;
-  border-color: #000;
+  border-color: #dba159;
   color: #444;
   box-shadow: inset 0 0 0 1px #000;
 }
@@ -20068,7 +20068,7 @@ body:not(.touch) .faq-wrap .nav-link:hover {
 body:not(.touch) .filters-by-category ul a:hover {
   text-decoration: none;
   background: transparent;
-  border-color: #000;
+  border-color: #dba159;
   box-shadow: inset 0 0 0 1px #000;
 }
 

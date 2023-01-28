@@ -13,11 +13,20 @@ $(function () {
       backToTop: true, // back to top button enable (set 'false' for disable)
     },
     // Google map options
+
     googleMapOption = {
-      latitude: 59.3,
-      longitude: 18.0941403,
-      zoom: 14,
-      marker: [["Our Clinic", 59.3, 18.0941403, 1, "images/map-marker.png"]],
+      latitude: 39.00627064533002,
+      longitude: -77.48886120154792,
+      zoom: 15,
+      marker: [
+        [
+          "Our Clinic",
+          39.00627064533002,
+          -77.48886120154792,
+          1,
+          "images/map-marker.png",
+        ],
+      ],
     },
     // Template Blocks
     blocks = {
