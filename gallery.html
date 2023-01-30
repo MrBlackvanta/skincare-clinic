@@ -264,50 +264,114 @@
             <div class="gallery-smiles gallery-isotope" id="gallery">
               <div class="gallery-item category2 category7">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category1 category5 category8">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category2 category4 category3">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category4 category8 category6">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category3 category7">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category4 category7 category3">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category1 category8">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
               <div class="gallery-item category2 category6">
                 <div class="twentytwenty-container">
-                  <img src="images/content/gallery/smile-1-1.jpg" alt="" />
-                  <img src="images/content/gallery/smile-1-2.jpg" alt="" />
+                  <img
+                    src="images/content/gallery/smile-1-1.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
+                  <img
+                    src="images/content/gallery/smile-1-2.jpg"
+                    alt=""
+                    class="img-preload-vanta"
+                  />
                 </div>
               </div>
             </div>
@@ -526,6 +590,16 @@
     <script src="js/app.js"></script>
     <script src="js/app-shop.js"></script>
     <script src="form/forms.js"></script>
-    <script></script>
+    <script>
+      const imgss = document.querySelectorAll(".img-preload-vanta");
+
+      let counterrr = 0;
+      [...imgss].map((el) =>
+        el.addEventListener("load", function () {
+          counterrr++;
+          console.log(counterrr);
+        })
+      );
+    </script>
   </body>
 </html>
