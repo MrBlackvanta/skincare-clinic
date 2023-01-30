@@ -28,3 +28,11 @@ $(function () {
     ],
   });
 });
+
+// const gallery11 = document.getElementById("hiddenxx1");
+
+// gallery11.style.display = "none";
+
+// setTimeout(() => {
+//   gallery11.style.display = "block";
+// }, 5000);
