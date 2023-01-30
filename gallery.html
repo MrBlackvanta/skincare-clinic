@@ -260,6 +260,9 @@
               </li>
             </ul>
           </div>
+          <div class="loading-content">
+            <div class="inner-circles-loader"></div>
+          </div>
           <div class="gallery-wrap">
             <div class="gallery-smiles gallery-isotope" id="gallery">
               <div class="gallery-item category2 category7">
@@ -591,15 +594,30 @@
     <script src="js/app-shop.js"></script>
     <script src="form/forms.js"></script>
     <script>
-      const imgss = document.querySelectorAll(".img-preload-vanta");
+      window.onload = function () {
+        var images = document.querySelectorAll("img-preload-vanta"),
+          totalImages = images.length,
+          imagesLoaded = 0,
+          img;
 
-      let counterrr = 0;
-      [...imgss].map((el) =>
-        el.addEventListener("load", function () {
-          counterrr++;
-          console.log(counterrr);
-        })
-      );
+        function checkForLoaded() {
+          if (imagesLoaded === totalImages) {
+            var loadingDiv = document.querySelector(".loading-content");
+            loadingDiv.parentNode.removeChild(loadingDiv);
+          }
+        }
+
+        for (var i = 0; i < totalImages; i++) {
+          img = new Image();
+
+          img.onload = function () {
+            imagesLoaded++;
+            checkForLoaded();
+          };
+
+          img.src = images[i].src;
+        }
+      };
     </script>
   </body>
 </html>
