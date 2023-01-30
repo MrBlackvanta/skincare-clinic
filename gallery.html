@@ -260,10 +260,7 @@
               </li>
             </ul>
           </div>
-          <div class="loading-content">
-            <div class="inner-circles-loader"></div>
-          </div>
-          <div class="gallery-wrap" id="hidden">
+          <div class="gallery-wrap">
             <div class="gallery-smiles gallery-isotope" id="gallery">
               <div class="gallery-item category2 category7">
                 <div class="twentytwenty-container">
@@ -530,9 +527,32 @@
     <script src="js/app-shop.js"></script>
     <script src="form/forms.js"></script>
     <script>
-      $(window).on("load", function () {
-        $(".loading-content").fadeOut(1000);
-      });
+      function preload(arrayOfImages) {
+        $(arrayOfImages).each(function () {
+          $("<img/>")[0].src = this;
+        });
+      }
+
+      // Usage:
+
+      preload([
+        "./images/content/gallery/smile-1-1.jpg",
+        "./images/content/gallery/smile-1-2.jpg",
+        "./images/content/gallery/smile-2-1.jpg",
+        "./images/content/gallery/smile-2-2.jpg",
+        "./images/content/gallery/smile-3-1.jpg",
+        "./images/content/gallery/smile-3-2.jpg",
+        "./images/content/gallery/smile-4-1.jpg",
+        "./images/content/gallery/smile-4-2.jpg",
+        "./images/content/gallery/smile-5-1.jpg",
+        "./images/content/gallery/smile-5-2.jpg",
+        "./images/content/gallery/smile-6-1.jpg",
+        "./images/content/gallery/smile-6-2.jpg",
+        "./images/content/gallery/smile-7-1.jpg",
+        "./images/content/gallery/smile-7-2.jpg",
+        "./images/content/gallery/smile-8-1.jpg",
+        "./images/content/gallery/smile-8-2.jpg",
+      ]);
     </script>
   </body>
 </html>
