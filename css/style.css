@@ -14107,6 +14107,10 @@ body.noScroll {
   max-height: 60px;
 }
 
+.header-logoo {
+  width: 500px;
+}
+
 .header-content.stuck .header-logo,
 .header-content.stuck .header-logo img {
   max-height: 40px;
