@@ -154,25 +154,23 @@
 
 .review-boxx .slick-next {
   left: 51%;
-  top: 250px;
+  top: 85%;
 }
 
 .review-boxx .slick-prev {
   left: 46%;
   transform: translateX(-45%);
-  top: 250px;
+  top: 85%;
 }
 
 @media (max-width: 767px) {
   .review-boxx .slick-next {
     left: 53%;
-    top: 200px;
   }
 
   .review-boxx .slick-prev {
     left: 43%;
     transform: translateX(-45%);
-    top: 200px;
   }
 }
 .before-after-section {
@@ -234,10 +232,6 @@
   text-align: left;
 }
 
-.header-nav .nav-item > .bookknow {
-  color: #dba159;
-}
-
 .table-img {
   margin: 0 auto;
   width: 50vw;
@@ -245,4 +239,41 @@
 
 .table-img img {
   width: 100%;
+}
+
+.vanta-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .vanta-none {
+    display: inline !important;
+  }
+  .vanta-hiddenn {
+    display: none !important;
+  }
+}
+
+.header-nav .nav-item > .nav-link,
+.header .navbar-nav > .nav-item > .dropdown-menu a,
+.dropdown-item + .dropdown-menu a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.header-nav .nav-item > .nav-link:hover,
+.header .navbar-nav > .nav-item > .dropdown-menu a:hover,
+.dropdown-item + .dropdown-menu a:hover {
+  color: #000;
+  font-weight: 700;
+}
+
+.header-nav .nav-item > .bookknow {
+  color: #000;
+  font-weight: 700;
+}
+
+.header .navbar-nav > .nav-item > .dropdown-menu,
+.dropdown-item + .dropdown-menu {
+  border-color: #000;
 }
