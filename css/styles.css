@@ -277,3 +277,15 @@
 .dropdown-item + .dropdown-menu {
   border-color: #000;
 }
+
+.service-card-photo img {
+  transform: translateY(-100px);
+}
+
+.vanta-2-service img,
+.vanta-3-service img,
+.vanta-4-service img,
+.vanta-5-service img,
+.vanta-6-service img {
+  transform: translateY(-55px);
+}

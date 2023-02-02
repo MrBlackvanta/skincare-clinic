@@ -11185,7 +11185,7 @@ body.touch .tooltip.show {
   margin-right: 4px;
   width: 69px;
   height: 69px;
-  color: #dba159;
+  color: #000;
   background-color: #f8f8f8;
   text-align: center;
   border-radius: 50%;
@@ -11201,7 +11201,7 @@ body.touch .tooltip.show {
   background-color: #fff;
   color: #000;
   text-decoration: none;
-  box-shadow: inset 0 0 0 5px rgba(219, 161, 89, 0.2);
+  box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .video-box {
@@ -16136,6 +16136,7 @@ body.noScroll {
   background-color: #fff;
   margin-left: -30px;
   margin-right: -30px;
+  height: 320px;
 }
 @media (max-width: 1023px) {
   .service-card-photo {
@@ -16154,7 +16155,7 @@ body.noScroll {
   z-index: 1;
   background: transparent;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 30px #dba159;
+  box-shadow: inset 0 0 0 30px #000;
   opacity: 0;
   transition: opacity 0 ease 0;
   pointer-events: none;
@@ -17848,7 +17849,7 @@ body:not(.touch) .banner-center .btn-fill:focus:not(:first-child) {
   content: "\e932";
   font-family: "dentco";
   font-size: 12px;
-  color: #dba159;
+  color: #000;
   transform: translateY(-50%);
 }
 .faq-item [data-toggle="collapse"][aria-expanded="true"]:after {
