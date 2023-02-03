@@ -27,15 +27,19 @@
   transition: all 0.3s;
 }
 
+.treatment-age:hover {
+  text-decoration: none;
+}
+
 .treatment-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
   color: #fff;
-  position: absolute;
+  position: relative;
   z-index: 3;
   left: 1em;
-  bottom: 2em;
+  bottom: 20em;
 }
 
 .treatment-age-text {
