@@ -1,0 +1,48 @@
+.vanta-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .vanta-none {
+    display: inline !important;
+  }
+  .vanta-hiddenn {
+    display: none !important;
+  }
+}
+
+.header-nav .nav-item > .nav-link,
+.header .navbar-nav > .nav-item > .dropdown-menu a,
+.dropdown-item + .dropdown-menu a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.header-nav .nav-item > .nav-link:hover,
+.header .navbar-nav > .nav-item > .dropdown-menu a:hover,
+.dropdown-item + .dropdown-menu a:hover {
+  color: #000;
+  font-weight: 700;
+}
+
+.header-nav .nav-item > .bookknow {
+  color: #000;
+  font-weight: 700;
+}
+
+.header .navbar-nav > .nav-item > .dropdown-menu,
+.dropdown-item + .dropdown-menu {
+  border-color: #000;
+}
+
+.service-card-photo img {
+  transform: translateY(-100px);
+}
+
+.vanta-2-service img,
+.vanta-3-service img,
+.vanta-4-service img,
+.vanta-5-service img,
+.vanta-6-service img {
+  transform: translateY(-55px);
+}
