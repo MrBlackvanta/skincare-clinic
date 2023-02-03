@@ -293,3 +293,8 @@
 .vanta-6-service img {
   transform: translateY(-55px);
 }
+
+.vanta-bg-white {
+  padding: 100px 0;
+  background: #fff;
+}
